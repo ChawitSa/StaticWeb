@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="section" id="Header">
+      <h1>This is a Header 1</h1>
+      <h2>This is a Header</h2>
+      <h3>This is a Header</h3>
+      <h4>This is a Header</h4>
+      <h5>This is a Header</h5>
+      <h6>This is a Header</h6>
+    </section>
+
+    <section class="section" id="Paragraph">
+      <p>
+        This is a paragraph.
+      </p>
+    </section>
+
+    <section class="section" id="Formatting">
+      <p>This is a <strong>Strong</strong> and <b>Bold</b> string.</p>
+      <p>This is a <em>Emphasize</em></p>
+      <p>This is a <mark>Mark</mark></p>
+      <p>This is a <del>Strikeout</del></p>
+    </section>
+
+    <section class="section" id="Quotations">
+      <p>This is a <q>Quote</q></p>
+      <blockquote>
+        This is blockquote.
+      </blockquote>
+      <bdo dir="rtl">This is a bdo.</bdo>
+      <p>This is a <abbr title="World Organization">WHO</abbr></p>
+    </section>
+
+    <section class="section" id="Comment">
+      <!-- Comment -->
+      <!--
+        <p>This is a Comment</p>
+        <p>This is a Comment</p>
+      -->
+      <p>
+        This is a
+        <!--Comment-->
+      </p>
+    </section>
+
+    <section class="section" id="Link">
+      <a href="https://google.com">Google</a>
+      <br />
+      <a href="https://google.com" target="_blank">Google new tab</a>
+      <a href="https://google.com"><p>This is a paragraph link google</p></a>
+    </section>
+
+    <section class="section" id="Media">
+      <img src="image/firefox.jpg" alt="firefox" width="300" />
+      <img src="firefox.jpg" alt="firefox" width="300" />
+      <br />
+      <video src="video/video.mp4" width="400" autoplay></video>
+      <audio src="audio/audio.mp3"></audio>
+    </section>
+
+    <section class="section" id="Table">
+      <table>
+        <caption>
+          My table
+        </caption>
+        <tr>
+          <th>Title</th>
+          <th>Date</th>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>20/02/2002</td>
+        </tr>
+        <tr>
+          <td>Jin</td>
+          <td>26/06/2006</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="section" id="List">
+      <ol>
+        <li>Tom yum</li>
+        <li>Omlet</li>
+        <li>Hot dog</li>
+      </ol>
+      <ol type="A">
+        <li>Tom yum</li>
+        <li>Omlet</li>
+        <li>Hot dog</li>
+      </ol>
+      <ol type="I">
+        <li>Tom yum</li>
+        <li>Omlet</li>
+        <li>Hot dog</li>
+      </ol>
+      <ul>
+        <li>My name is Jin.</li>
+        <li>My nickname is Jane.</li>
+        <li>My lastname is Jing.</li>
+      </ul>
+      <ul style="list-style-type: square;">
+        <li>My name is Jin.</li>
+        <li>My nickname is Jane.</li>
+        <li>My lastname is Jing.</li>
+      </ul>
+      <dl>
+        <dt>Mr.K</dt>
+        <dd>10 yo.</dd>
+        <dt>Mr.O</dt>
+        <dd>20 yo.</dd>
+      </dl>
+    </section>
+
+    <section class="section" id="iframe">
+      <iframe
+        width="300"
+        height="168.75"
+        src="https://www.youtube.com/embed/lsw2LYM3ymE"
+      ></iframe>
+    </section>
+
+    <section class="section" id="Script">
+      <p id="test-script">This is a</p>
+      <script>
+        alert("This is a SCRIPT.");
+        document.getElementById("test-script").innerHTML = "My name is";
+      </script>
+      <script type="text/javascript" src="" async defer></script>
+    </section>
+
+    <section class="section" id="Code">
+      <pre>
+        <code>
+          function test(a, b){
+            return a+b;
+          }
+        </code>
+      </pre>
+      <p><var>x</var> = 1+2</p>
+    </section>
+
+    <section class="section" id="Form">
+      <form>
+        text <input type="text" readonly value="ReadMe" />
+        <br />
+        number <input type="number" />
+        <br />
+        password <input type="password" />
+        <br />
+        submit <input type="submit" />
+        <br />
+        text area
+        <textarea name="This is a text area" cols="30" rows="10"></textarea>
+        <br />
+        select
+        <select name="">
+          <option value="A">Ant</option>
+          <option value="B" selected>Bid</option>
+        </select>
+        <br />
+        Blue <input type="radio" value="Blue" /> Red
+        <input type="radio" value="Red" /> Greed <input type="checkbox" />
+        <button onsubmit="" type="submit">Click me</button>
+      </form>
+    </section>
+  </body>
+</html>

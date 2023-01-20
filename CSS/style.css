@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
+
+h1 {
+  color: red;
+}
+
+.width200 {
+  width: 200px;
+  height: 200px;
+}
+
+.background-color {
+  background-color: #df3434;
+}
+.background-image {
+  background-image: url("/image/firefox.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.border {
+  border-bottom: 5px dashed black;
+  border-top: 4px dotted black;
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+}
+
+.margin {
+  margin: 50px 100px 30px 100px;
+  background-color: yellowgreen;
+}
+
+.padding {
+  padding: 20px 20px 20px 20px;
+  background-color: goldenrod;
+}
+
+.width-height {
+  width: 300px;
+  height: 100vh;
+  background-color: greenyellow;
+}
+
+.mixed-width {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  /* margin: 50px; */
+  border: 10px solid blue;
+}
+
+.outline {
+  outline: 15px solid green;
+  outline-offset: 15px;
+  margin: 30px;
+}
+
+.text {
+  margin: 100px;
+}
+
+.text p {
+  /* text-align: center; */
+  text-align: justify;
+  text-decoration: underline;
+}
+
+.text .left {
+  text-align: left;
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+.text .right {
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.text .indent {
+  text-indent: 50px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  word-spacing: 10px;
+  text-shadow: 5px 5px 10px red;
+}
+
+.font {
+  margin: 100px;
+}
+
+.font p:first-child {
+  font-family: Arial;
+}
+
+.font p:nth-child(2) {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 30px;
+  font-style: oblique;
+}
+
+.link a:link {
+  color: blue;
+}
+.link a:visited {
+  color: red;
+}
+.link a:hover {
+  color: greenyellow;
+}
+
+.list li {
+  list-style-type: circle;
+}
+
+.display p:first-child {
+  display: none;
+  display: block;
+  display: inline;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex .flex-item {
+  flex: 1;
+  height: 30px;
+  background-color: blue;
+}
+
+.position {
+  position: static;
+  position: absolute;
+  position: fixed;
+  position: relative;
+  position: sticky;
+  top: 10px;
+}
+
+.overflow {
+  overflow: auto;
+  height: 20px;
+}
+
+.overflow .box {
+  height: 100px;
+  background-color: green;
+}
+
+.float {
+}
+
+.float .left {
+  float: left;
+  background-color: greenyellow;
+  width: 100px;
+  height: 100px;
+}
+
+.float .right {
+  float: right;
+  background-color: greenyellow;
+  width: 100px;
+  height: 100px;
+}
